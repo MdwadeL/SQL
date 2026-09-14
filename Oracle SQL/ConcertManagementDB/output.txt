@@ -1,0 +1,111 @@
+
+PRODNO PRODUCERNAME    CONCERTID CONCERTNAME                      CONCERTDATE                BUDGET
+------ --------------- --------- -------------------------------- ------------------ --------------
+P001   ACME Production C105      Fantasia, Robin Thicke and Tank  2023-03 08:00 PM      $120,123.00
+P001   ACME Production C106      Fantasia, Robin Thicke and Tank  2023-03 08:00 PM      $250,000.00
+P001   ACME Production C104      Justin Timberlake                2023-09 08:00 PM                 
+P003   John Smith      C101      Hootie and the Blowfish          2023-01 08:00 PM                 
+P003   John Smith      C102      Hootie and the Blowfish          2023-03 08:00 PM       $77,000.00
+P003   John Smith      C103      New Edition                      2023-06 08:00 PM      $207,000.00
+P003   John Smith      C107      New Edition                      2023-09 08:00 PM      $207,000.00
+
+7 rows selected. 
+
+
+PRODNO PRODUCERNAME     TOTALBUDGET
+------ --------------- ------------
+P001   ACME Production  $370,123.00
+P003   John Smith       $491,000.00
+
+
+PRODUCTIONCOMPANY         PRODUCEDNUM
+------------------------- -----------
+John Smith                          4
+ACME Production                     3
+
+
+CUSTOMERNAME    CONCERTNAME               CONCERTLOCATION    COST
+--------------- ------------------------- --------------- -------
+Smith, John     Hootie and the Blowfish   Ashville, NC     $10.50
+Jones, Alice    Hootie and the Blowfish   Ashville, NC     $10.50
+Smith, William  Hootie and the Blowfish   Ashville, NC     $10.50
+Smith, John     New Edition               Spartanburg, SC  $25.50
+Jones, Alice    New Edition               Spartanburg, SC  $25.50
+Smith, William  New Edition               Spartanburg, SC  $25.50
+
+6 rows selected. 
+
+
+CUSTNO FULLNAME                  TOTALSPENT
+------ ------------------------- ----------
+0001   John Smith                  $36.00  
+0004   William Smith               $36.00  
+0003   Alice Jones                 $36.00  
+
+
+CONCERTID CONCERTNAME  AVGTICKET
+--------- ------------ ---------
+C103      New Edition   $25.50  
+
+
+CONCERTNAME   CUSATTEND
+------------ ----------
+New Edition           3
+Hootie and t          3
+he Blowfish            
+
+
+
+CONCERTID CONCERTNAME               CustAttend TOTALREVENUE
+--------- ------------------------- ---------- ------------
+C103      New Edition                        3  $76.50     
+
+
+PRODNAME          PRODUCED    AVGBUDGET
+--------------- ---------- ------------
+ACME Production          3  $185,061.50
+John Smith               4  $163,666.67
+
+
+LNAME FNAME    CONCERT                   PRODUCER        COST
+----- -------- ------------------------- ------------ -------
+Jones Alice    Hootie and the Blowfish   John Smith    $10.50
+Smith William  Hootie and the Blowfish   John Smith    $10.50
+Smith John     Hootie and the Blowfish   John Smith    $10.50
+Jones Alice    New Edition               John Smith    $25.50
+Smith John     New Edition               John Smith    $25.50
+Smith William  New Edition               John Smith    $25.50
+
+6 rows selected. 
+
+
+PRODUCERNAME    TOTALREVENUE
+--------------- ------------
+John Smith           $108.00
+
+
+CUSTNO FNAME    LNAME CONCERTSATTENDED
+------ -------- ----- ----------------
+0001   John     Smith                2
+0004   William  Smith                2
+0003   Alice    Jones                2
+
+
+FNAME    LNAME AVGTICKET
+-------- ----- ---------
+John     Smith  $18.00  
+Alice    Jones  $18.00  
+William  Smith  $18.00  
+
+
+CONCERTNAME                     BUDGET NUMATTENDEES TICKETREVENUE
+------------------------- ------------ ------------ -------------
+Hootie and the Blowfish     $77,000.00            3   $31.50     
+New Edition                $207,000.00            3   $76.50     
+
+
+PRODNO PRODNAME        NUMCONPROD TOTALCONBUDGET AVGCONBUDGET MAXCONBUDGET MINCONBUDGET
+------ --------------- ---------- -------------- ------------ ------------ ------------
+P001   ACME Production          3  $370,123.00    $185,061.50  $250,000.00  $120,123.00
+P003   John Smith               4  $491,000.00    $163,666.67  $207,000.00   $77,000.00
+
