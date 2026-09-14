@@ -1,0 +1,815 @@
+
+STUDID    LNAME                     Amount                                               
+--------- ------------------------- -----------------------------------------------------
+142519864 Martin                    difference = -1100                                   
+242518965 Smith                     difference = -4000                                   
+141582651 Johnson                   difference = -1600                                   
+011564812 Williams                  difference = -700                                    
+254099823 Jones                     difference = 0                                       
+356187925 Brown                     difference = 0                                       
+489456522 Davis                     difference = 200                                     
+287321212 Miller                    difference = -3400                                   
+
+8 rows selected. 
+
+
+FULLNAME                                  COURSE_SECT                              
+----------------------------------------- -----------------------------------------
+James Smith                               SCSC W138 - INTRO TO COMPUTER TECH {001} 
+James Smith                               SEGL W101 - COMPOSITION {001}            
+James Smith                               SHST W111 - INTRO EUROPEAN HISTORY {001} 
+James Smith                               SIMS W139 - VISUAL BASIC I {001}         
+James Smith                               SIMS W239 - VISUAL BASIC II {001}        
+James Smith                               SMTH W121 - COLLEGE ALGEBRA {001}        
+John Williams                             SCSC W138 - INTRO TO COMPUTER TECH {001} 
+John Williams                             SEGL W101 - COMPOSITION {001}            
+John Williams                             SHST W111 - INTRO EUROPEAN HISTORY {001} 
+John Williams                             SIMS W139 - VISUAL BASIC I {001}         
+John Williams                             SIMS W239 - VISUAL BASIC II {001}        
+
+FULLNAME                                  COURSE_SECT                              
+----------------------------------------- -----------------------------------------
+John Williams                             SIMS W421 - DATABASE IMPL. {001}         
+John Williams                             SMTH W121 - COLLEGE ALGEBRA {001}        
+Linda Davis                               SCSC W138 - INTRO TO COMPUTER TECH {001} 
+Linda Davis                               SEGL W101 - COMPOSITION {001}            
+Linda Davis                               SHST W111 - INTRO EUROPEAN HISTORY {001} 
+Linda Davis                               SIMS W139 - VISUAL BASIC I {001}         
+Linda Davis                               SIMS W239 - VISUAL BASIC II {001}        
+Linda Davis                               SIMS W421 - DATABASE IMPL. {001}         
+Linda Davis                               SMTH W121 - COLLEGE ALGEBRA {001}        
+Mary Johnson                              SCSC W138 - INTRO TO COMPUTER TECH {001} 
+Mary Johnson                              SEGL W101 - COMPOSITION {001}            
+
+FULLNAME                                  COURSE_SECT                              
+----------------------------------------- -----------------------------------------
+Mary Johnson                              SHST W111 - INTRO EUROPEAN HISTORY {001} 
+Mary Johnson                              SIMS W139 - VISUAL BASIC I {001}         
+Mary Johnson                              SIMS W239 - VISUAL BASIC II {001}        
+Mary Johnson                              SIMS W421 - DATABASE IMPL. {001}         
+Mary Johnson                              SMTH W121 - COLLEGE ALGEBRA {001}        
+Patricia Jones                            SCSC W138 - INTRO TO COMPUTER TECH {001} 
+Patricia Jones                            SEGL W101 - COMPOSITION {001}            
+Patricia Jones                            SHST W111 - INTRO EUROPEAN HISTORY {001} 
+Patricia Jones                            SIMS W139 - VISUAL BASIC I {001}         
+Patricia Jones                            SIMS W239 - VISUAL BASIC II {001}        
+Patricia Jones                            SIMS W421 - DATABASE IMPL. {001}         
+
+FULLNAME                                  COURSE_SECT                              
+----------------------------------------- -----------------------------------------
+Patricia Jones                            SMTH W121 - COLLEGE ALGEBRA {001}        
+Robert Brown                              SCSC W138 - INTRO TO COMPUTER TECH {001} 
+Robert Brown                              SEGL W101 - COMPOSITION {001}            
+Robert Brown                              SHST W111 - INTRO EUROPEAN HISTORY {001} 
+Robert Brown                              SIMS W139 - VISUAL BASIC I {001}         
+Robert Brown                              SIMS W239 - VISUAL BASIC II {001}        
+Robert Brown                              SIMS W421 - DATABASE IMPL. {001}         
+Robert Brown                              SMTH W121 - COLLEGE ALGEBRA {001}        
+Susan Martin                              SCSC W138 - INTRO TO COMPUTER TECH {001} 
+Susan Martin                              SEGL W101 - COMPOSITION {001}            
+Susan Martin                              SHST W111 - INTRO EUROPEAN HISTORY {001} 
+
+FULLNAME                                  COURSE_SECT                              
+----------------------------------------- -----------------------------------------
+Susan Martin                              SIMS W139 - VISUAL BASIC I {001}         
+Susan Martin                              SIMS W239 - VISUAL BASIC II {001}        
+Susan Martin                              SMTH W121 - COLLEGE ALGEBRA {001}        
+
+47 rows selected. 
+
+
+FULLNAME                                  SEQCDE
+----------------------------------------- ------
+Susan Martin                              523764
+James Smith                               523764
+Mary Johnson                              523764
+John Williams                             523764
+Patricia Jones                            523764
+Robert Brown                              523764
+Linda Davis                               523764
+
+7 rows selected. 
+
+
+STUDID    SEQCDE
+--------- ------
+254099823 523764
+
+
+FNAME           LNAME                    
+--------------- -------------------------
+Susan           Martin                   
+James           Smith                    
+Mary            Johnson                  
+John            Williams                 
+Patricia        Jones                    
+Robert          Brown                    
+Linda           Davis                    
+Michael         Miller                   
+
+8 rows selected. 
+
+
+STUDENTNAME_ID                                         MAJOR          
+------------------------------------------------------ ---------------
+Martin, Susan (142519864)                              IMS            
+Smith, James (242518965)                               CS             
+Johnson, Mary (141582651)                              IMS            
+Williams, John (011564812)                             English        
+Jones, Patricia (254099823)                            Math           
+Brown, Robert (356187925)                              Math           
+Davis, Linda (489456522)                               IMS            
+Miller, Michael (287321212)                            English        
+
+8 rows selected. 
+
+
+SEQCDE COURSENAME                         
+------ -----------------------------------
+523764 SEGL W101 - COMPOSITION            
+521954 SMTH W121 - COLLEGE ALGEBRA        
+521374 SCSC W138 - INTRO TO COMPUTER TECH 
+519054 SHST W111 - INTRO EUROPEAN HISTORY 
+529834 SIMS W139 - VISUAL BASIC I         
+514684 SIMS W239 - VISUAL BASIC II        
+529894 SIMS W421 - DATABASE IMPL.         
+
+7 rows selected. 
+
+
+PROFNAME   COURSENAME                         
+---------- -----------------------------------
+BOGGS S    SHST W111 - INTRO EUROPEAN HISTORY 
+SPIESS E   SCSC W138 - INTRO TO COMPUTER TECH 
+TAYLOR N   SEGL W101 - COMPOSITION            
+TOLAND T   SIMS W139 - VISUAL BASIC I         
+Toland T   SIMS W421 - DATABASE IMPL.         
+WHITE W    SMTH W121 - COLLEGE ALGEBRA        
+Williams D SIMS W239 - VISUAL BASIC II        
+
+7 rows selected. 
+
+
+STUDENTS                                              MAJOR          
+----------------------------------------------------- ---------------
+Susan Martin (142519864)                              IMS            
+Mary Johnson (141582651)                              IMS            
+Linda Davis (489456522)                               IMS            
+
+
+STUDENTS                                              FINANCIALAID
+----------------------------------------------------- ------------
+Susan Martin (142519864)                                      3900
+James Smith (242518965)                                       6800
+Mary Johnson (141582651)                                      4400
+John Williams (011564812)                                     3500
+Michael Miller (287321212)                                    6200
+
+
+FNAME           COURSENAME                         
+--------------- -----------------------------------
+James           SIMS W239 - VISUAL BASIC II        
+James           SIMS W139 - VISUAL BASIC I         
+James           SEGL W101 - COMPOSITION            
+James           SMTH W121 - COLLEGE ALGEBRA        
+James           SCSC W138 - INTRO TO COMPUTER TECH 
+James           SHST W111 - INTRO EUROPEAN HISTORY 
+John            SIMS W239 - VISUAL BASIC II        
+John            SHST W111 - INTRO EUROPEAN HISTORY 
+John            SCSC W138 - INTRO TO COMPUTER TECH 
+John            SMTH W121 - COLLEGE ALGEBRA        
+John            SEGL W101 - COMPOSITION            
+
+FNAME           COURSENAME                         
+--------------- -----------------------------------
+John            SIMS W139 - VISUAL BASIC I         
+John            SIMS W421 - DATABASE IMPL.         
+Linda           SIMS W139 - VISUAL BASIC I         
+Linda           SIMS W421 - DATABASE IMPL.         
+Linda           SEGL W101 - COMPOSITION            
+Linda           SMTH W121 - COLLEGE ALGEBRA        
+Linda           SCSC W138 - INTRO TO COMPUTER TECH 
+Linda           SHST W111 - INTRO EUROPEAN HISTORY 
+Linda           SIMS W239 - VISUAL BASIC II        
+Mary            SCSC W138 - INTRO TO COMPUTER TECH 
+Mary            SMTH W121 - COLLEGE ALGEBRA        
+
+FNAME           COURSENAME                         
+--------------- -----------------------------------
+Mary            SEGL W101 - COMPOSITION            
+Mary            SIMS W139 - VISUAL BASIC I         
+Mary            SIMS W421 - DATABASE IMPL.         
+Mary            SIMS W239 - VISUAL BASIC II        
+Mary            SHST W111 - INTRO EUROPEAN HISTORY 
+Patricia        SIMS W421 - DATABASE IMPL.         
+Patricia        SIMS W139 - VISUAL BASIC I         
+Patricia        SEGL W101 - COMPOSITION            
+Patricia        SMTH W121 - COLLEGE ALGEBRA        
+Patricia        SCSC W138 - INTRO TO COMPUTER TECH 
+Patricia        SHST W111 - INTRO EUROPEAN HISTORY 
+
+FNAME           COURSENAME                         
+--------------- -----------------------------------
+Patricia        SIMS W239 - VISUAL BASIC II        
+Robert          SIMS W421 - DATABASE IMPL.         
+Robert          SIMS W139 - VISUAL BASIC I         
+Robert          SEGL W101 - COMPOSITION            
+Robert          SMTH W121 - COLLEGE ALGEBRA        
+Robert          SCSC W138 - INTRO TO COMPUTER TECH 
+Robert          SHST W111 - INTRO EUROPEAN HISTORY 
+Robert          SIMS W239 - VISUAL BASIC II        
+Susan           SHST W111 - INTRO EUROPEAN HISTORY 
+Susan           SCSC W138 - INTRO TO COMPUTER TECH 
+Susan           SMTH W121 - COLLEGE ALGEBRA        
+
+FNAME           COURSENAME                         
+--------------- -----------------------------------
+Susan           SEGL W101 - COMPOSITION            
+Susan           SIMS W139 - VISUAL BASIC I         
+Susan           SIMS W239 - VISUAL BASIC II        
+
+47 rows selected. 
+
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+James Smith                               SIMS W239 - VISUAL BASIC II        
+James Smith                               SIMS W139 - VISUAL BASIC I         
+James Smith                               SEGL W101 - COMPOSITION            
+James Smith                               SMTH W121 - COLLEGE ALGEBRA        
+James Smith                               SCSC W138 - INTRO TO COMPUTER TECH 
+James Smith                               SHST W111 - INTRO EUROPEAN HISTORY 
+John Williams                             SIMS W239 - VISUAL BASIC II        
+John Williams                             SHST W111 - INTRO EUROPEAN HISTORY 
+John Williams                             SCSC W138 - INTRO TO COMPUTER TECH 
+John Williams                             SMTH W121 - COLLEGE ALGEBRA        
+John Williams                             SEGL W101 - COMPOSITION            
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+John Williams                             SIMS W139 - VISUAL BASIC I         
+John Williams                             SIMS W421 - DATABASE IMPL.         
+Linda Davis                               SIMS W139 - VISUAL BASIC I         
+Linda Davis                               SIMS W421 - DATABASE IMPL.         
+Linda Davis                               SEGL W101 - COMPOSITION            
+Linda Davis                               SMTH W121 - COLLEGE ALGEBRA        
+Linda Davis                               SCSC W138 - INTRO TO COMPUTER TECH 
+Linda Davis                               SHST W111 - INTRO EUROPEAN HISTORY 
+Linda Davis                               SIMS W239 - VISUAL BASIC II        
+Mary Johnson                              SCSC W138 - INTRO TO COMPUTER TECH 
+Mary Johnson                              SMTH W121 - COLLEGE ALGEBRA        
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Mary Johnson                              SEGL W101 - COMPOSITION            
+Mary Johnson                              SIMS W139 - VISUAL BASIC I         
+Mary Johnson                              SIMS W421 - DATABASE IMPL.         
+Mary Johnson                              SIMS W239 - VISUAL BASIC II        
+Mary Johnson                              SHST W111 - INTRO EUROPEAN HISTORY 
+Patricia Jones                            SIMS W421 - DATABASE IMPL.         
+Patricia Jones                            SIMS W139 - VISUAL BASIC I         
+Patricia Jones                            SEGL W101 - COMPOSITION            
+Patricia Jones                            SMTH W121 - COLLEGE ALGEBRA        
+Patricia Jones                            SCSC W138 - INTRO TO COMPUTER TECH 
+Patricia Jones                            SHST W111 - INTRO EUROPEAN HISTORY 
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Patricia Jones                            SIMS W239 - VISUAL BASIC II        
+Robert Brown                              SIMS W421 - DATABASE IMPL.         
+Robert Brown                              SIMS W139 - VISUAL BASIC I         
+Robert Brown                              SEGL W101 - COMPOSITION            
+Robert Brown                              SMTH W121 - COLLEGE ALGEBRA        
+Robert Brown                              SCSC W138 - INTRO TO COMPUTER TECH 
+Robert Brown                              SHST W111 - INTRO EUROPEAN HISTORY 
+Robert Brown                              SIMS W239 - VISUAL BASIC II        
+Susan Martin                              SHST W111 - INTRO EUROPEAN HISTORY 
+Susan Martin                              SCSC W138 - INTRO TO COMPUTER TECH 
+Susan Martin                              SMTH W121 - COLLEGE ALGEBRA        
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Susan Martin                              SEGL W101 - COMPOSITION            
+Susan Martin                              SIMS W139 - VISUAL BASIC I         
+Susan Martin                              SIMS W239 - VISUAL BASIC II        
+
+47 rows selected. 
+
+
+STUDID    FNAME           COURSENAME                          SEC
+--------- --------------- ----------------------------------- ---
+011564812 John            SIMS W139 - VISUAL BASIC I          001
+011564812 John            SIMS W239 - VISUAL BASIC II         001
+011564812 John            SHST W111 - INTRO EUROPEAN HISTORY  001
+011564812 John            SCSC W138 - INTRO TO COMPUTER TECH  001
+011564812 John            SMTH W121 - COLLEGE ALGEBRA         001
+011564812 John            SEGL W101 - COMPOSITION             001
+011564812 John            SIMS W421 - DATABASE IMPL.          001
+141582651 Mary            SHST W111 - INTRO EUROPEAN HISTORY  001
+141582651 Mary            SIMS W239 - VISUAL BASIC II         001
+141582651 Mary            SCSC W138 - INTRO TO COMPUTER TECH  001
+141582651 Mary            SMTH W121 - COLLEGE ALGEBRA         001
+
+STUDID    FNAME           COURSENAME                          SEC
+--------- --------------- ----------------------------------- ---
+141582651 Mary            SEGL W101 - COMPOSITION             001
+141582651 Mary            SIMS W139 - VISUAL BASIC I          001
+141582651 Mary            SIMS W421 - DATABASE IMPL.          001
+142519864 Susan           SIMS W139 - VISUAL BASIC I          001
+142519864 Susan           SEGL W101 - COMPOSITION             001
+142519864 Susan           SMTH W121 - COLLEGE ALGEBRA         001
+142519864 Susan           SCSC W138 - INTRO TO COMPUTER TECH  001
+142519864 Susan           SIMS W239 - VISUAL BASIC II         001
+142519864 Susan           SHST W111 - INTRO EUROPEAN HISTORY  001
+242518965 James           SIMS W139 - VISUAL BASIC I          001
+242518965 James           SIMS W239 - VISUAL BASIC II         001
+
+STUDID    FNAME           COURSENAME                          SEC
+--------- --------------- ----------------------------------- ---
+242518965 James           SHST W111 - INTRO EUROPEAN HISTORY  001
+242518965 James           SCSC W138 - INTRO TO COMPUTER TECH  001
+242518965 James           SMTH W121 - COLLEGE ALGEBRA         001
+242518965 James           SEGL W101 - COMPOSITION             001
+254099823 Patricia        SIMS W139 - VISUAL BASIC I          001
+254099823 Patricia        SEGL W101 - COMPOSITION             001
+254099823 Patricia        SMTH W121 - COLLEGE ALGEBRA         001
+254099823 Patricia        SCSC W138 - INTRO TO COMPUTER TECH  001
+254099823 Patricia        SHST W111 - INTRO EUROPEAN HISTORY  001
+254099823 Patricia        SIMS W421 - DATABASE IMPL.          001
+254099823 Patricia        SIMS W239 - VISUAL BASIC II         001
+
+STUDID    FNAME           COURSENAME                          SEC
+--------- --------------- ----------------------------------- ---
+356187925 Robert          SIMS W239 - VISUAL BASIC II         001
+356187925 Robert          SIMS W421 - DATABASE IMPL.          001
+356187925 Robert          SIMS W139 - VISUAL BASIC I          001
+356187925 Robert          SEGL W101 - COMPOSITION             001
+356187925 Robert          SMTH W121 - COLLEGE ALGEBRA         001
+356187925 Robert          SCSC W138 - INTRO TO COMPUTER TECH  001
+356187925 Robert          SHST W111 - INTRO EUROPEAN HISTORY  001
+489456522 Linda           SIMS W139 - VISUAL BASIC I          001
+489456522 Linda           SEGL W101 - COMPOSITION             001
+489456522 Linda           SMTH W121 - COLLEGE ALGEBRA         001
+489456522 Linda           SCSC W138 - INTRO TO COMPUTER TECH  001
+
+STUDID    FNAME           COURSENAME                          SEC
+--------- --------------- ----------------------------------- ---
+489456522 Linda           SHST W111 - INTRO EUROPEAN HISTORY  001
+489456522 Linda           SIMS W239 - VISUAL BASIC II         001
+489456522 Linda           SIMS W421 - DATABASE IMPL.          001
+
+47 rows selected. 
+
+
+FNAME           LNAME                     COURSENAME                         
+--------------- ------------------------- -----------------------------------
+Mary            Johnson                   SIMS W421 - DATABASE IMPL.         
+John            Williams                  SIMS W421 - DATABASE IMPL.         
+Patricia        Jones                     SIMS W421 - DATABASE IMPL.         
+Robert          Brown                     SIMS W421 - DATABASE IMPL.         
+Linda           Davis                     SIMS W421 - DATABASE IMPL.         
+
+
+COURSENAME                          PROFNAME   FULLNAME                                 
+----------------------------------- ---------- -----------------------------------------
+SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E   John Williams                            
+SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E   Robert Brown                             
+SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E   Susan Martin                             
+SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E   Patricia Jones                           
+SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E   James Smith                              
+SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E   Mary Johnson                             
+SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E   Linda Davis                              
+SEGL W101 - COMPOSITION             TAYLOR N   John Williams                            
+SEGL W101 - COMPOSITION             TAYLOR N   James Smith                              
+SEGL W101 - COMPOSITION             TAYLOR N   Linda Davis                              
+SEGL W101 - COMPOSITION             TAYLOR N   Susan Martin                             
+
+COURSENAME                          PROFNAME   FULLNAME                                 
+----------------------------------- ---------- -----------------------------------------
+SEGL W101 - COMPOSITION             TAYLOR N   Robert Brown                             
+SEGL W101 - COMPOSITION             TAYLOR N   Mary Johnson                             
+SEGL W101 - COMPOSITION             TAYLOR N   Patricia Jones                           
+SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S    Mary Johnson                             
+SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S    James Smith                              
+SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S    Susan Martin                             
+SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S    Linda Davis                              
+SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S    Robert Brown                             
+SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S    Patricia Jones                           
+SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S    John Williams                            
+SIMS W139 - VISUAL BASIC I          TOLAND T   James Smith                              
+
+COURSENAME                          PROFNAME   FULLNAME                                 
+----------------------------------- ---------- -----------------------------------------
+SIMS W139 - VISUAL BASIC I          TOLAND T   Patricia Jones                           
+SIMS W139 - VISUAL BASIC I          TOLAND T   Susan Martin                             
+SIMS W139 - VISUAL BASIC I          TOLAND T   John Williams                            
+SIMS W139 - VISUAL BASIC I          TOLAND T   Linda Davis                              
+SIMS W139 - VISUAL BASIC I          TOLAND T   Mary Johnson                             
+SIMS W139 - VISUAL BASIC I          TOLAND T   Robert Brown                             
+SIMS W239 - VISUAL BASIC II         Williams D James Smith                              
+SIMS W239 - VISUAL BASIC II         Williams D Patricia Jones                           
+SIMS W239 - VISUAL BASIC II         Williams D Mary Johnson                             
+SIMS W239 - VISUAL BASIC II         Williams D Robert Brown                             
+SIMS W239 - VISUAL BASIC II         Williams D John Williams                            
+
+COURSENAME                          PROFNAME   FULLNAME                                 
+----------------------------------- ---------- -----------------------------------------
+SIMS W239 - VISUAL BASIC II         Williams D Linda Davis                              
+SIMS W239 - VISUAL BASIC II         Williams D Susan Martin                             
+SIMS W421 - DATABASE IMPL.          Toland T   Mary Johnson                             
+SIMS W421 - DATABASE IMPL.          Toland T   Patricia Jones                           
+SIMS W421 - DATABASE IMPL.          Toland T   Linda Davis                              
+SIMS W421 - DATABASE IMPL.          Toland T   John Williams                            
+SIMS W421 - DATABASE IMPL.          Toland T   Robert Brown                             
+SMTH W121 - COLLEGE ALGEBRA         WHITE W    Patricia Jones                           
+SMTH W121 - COLLEGE ALGEBRA         WHITE W    John Williams                            
+SMTH W121 - COLLEGE ALGEBRA         WHITE W    Mary Johnson                             
+SMTH W121 - COLLEGE ALGEBRA         WHITE W    Linda Davis                              
+
+COURSENAME                          PROFNAME   FULLNAME                                 
+----------------------------------- ---------- -----------------------------------------
+SMTH W121 - COLLEGE ALGEBRA         WHITE W    Susan Martin                             
+SMTH W121 - COLLEGE ALGEBRA         WHITE W    Robert Brown                             
+SMTH W121 - COLLEGE ALGEBRA         WHITE W    James Smith                              
+
+47 rows selected. 
+
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+James Smith                               SIMS W239 - VISUAL BASIC II        
+James Smith                               SIMS W139 - VISUAL BASIC I         
+James Smith                               SEGL W101 - COMPOSITION            
+James Smith                               SMTH W121 - COLLEGE ALGEBRA        
+James Smith                               SCSC W138 - INTRO TO COMPUTER TECH 
+James Smith                               SHST W111 - INTRO EUROPEAN HISTORY 
+John Williams                             SIMS W239 - VISUAL BASIC II        
+John Williams                             SHST W111 - INTRO EUROPEAN HISTORY 
+John Williams                             SCSC W138 - INTRO TO COMPUTER TECH 
+John Williams                             SMTH W121 - COLLEGE ALGEBRA        
+John Williams                             SEGL W101 - COMPOSITION            
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+John Williams                             SIMS W139 - VISUAL BASIC I         
+John Williams                             SIMS W421 - DATABASE IMPL.         
+Linda Davis                               SIMS W139 - VISUAL BASIC I         
+Linda Davis                               SIMS W421 - DATABASE IMPL.         
+Linda Davis                               SEGL W101 - COMPOSITION            
+Linda Davis                               SMTH W121 - COLLEGE ALGEBRA        
+Linda Davis                               SCSC W138 - INTRO TO COMPUTER TECH 
+Linda Davis                               SHST W111 - INTRO EUROPEAN HISTORY 
+Linda Davis                               SIMS W239 - VISUAL BASIC II        
+Mary Johnson                              SCSC W138 - INTRO TO COMPUTER TECH 
+Mary Johnson                              SMTH W121 - COLLEGE ALGEBRA        
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Mary Johnson                              SEGL W101 - COMPOSITION            
+Mary Johnson                              SIMS W139 - VISUAL BASIC I         
+Mary Johnson                              SIMS W421 - DATABASE IMPL.         
+Mary Johnson                              SIMS W239 - VISUAL BASIC II        
+Mary Johnson                              SHST W111 - INTRO EUROPEAN HISTORY 
+Patricia Jones                            SIMS W421 - DATABASE IMPL.         
+Patricia Jones                            SIMS W139 - VISUAL BASIC I         
+Patricia Jones                            SEGL W101 - COMPOSITION            
+Patricia Jones                            SMTH W121 - COLLEGE ALGEBRA        
+Patricia Jones                            SCSC W138 - INTRO TO COMPUTER TECH 
+Patricia Jones                            SHST W111 - INTRO EUROPEAN HISTORY 
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Patricia Jones                            SIMS W239 - VISUAL BASIC II        
+Robert Brown                              SIMS W421 - DATABASE IMPL.         
+Robert Brown                              SIMS W139 - VISUAL BASIC I         
+Robert Brown                              SEGL W101 - COMPOSITION            
+Robert Brown                              SMTH W121 - COLLEGE ALGEBRA        
+Robert Brown                              SCSC W138 - INTRO TO COMPUTER TECH 
+Robert Brown                              SHST W111 - INTRO EUROPEAN HISTORY 
+Robert Brown                              SIMS W239 - VISUAL BASIC II        
+Susan Martin                              SHST W111 - INTRO EUROPEAN HISTORY 
+Susan Martin                              SCSC W138 - INTRO TO COMPUTER TECH 
+Susan Martin                              SMTH W121 - COLLEGE ALGEBRA        
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Susan Martin                              SEGL W101 - COMPOSITION            
+Susan Martin                              SIMS W139 - VISUAL BASIC I         
+Susan Martin                              SIMS W239 - VISUAL BASIC II        
+
+47 rows selected. 
+
+
+FULLNAME                                   STUDID   
+------------------------------------------ ---------
+Brown, Robert                              356187925
+Davis, Linda                               489456522
+Johnson, Mary                              141582651
+Jones, Patricia                            254099823
+Martin, Susan                              142519864
+Miller, Michael                            287321212
+Smith, James                               242518965
+Williams, John                             011564812
+
+8 rows selected. 
+
+
+FNAME           STUDID   
+--------------- ---------
+James           242518965
+John            011564812
+Linda           489456522
+Mary            141582651
+Michael         287321212
+Patricia        254099823
+Robert          356187925
+Susan           142519864
+
+8 rows selected. 
+
+
+SEQCDE COURSENAME                          MEETINGDAYS              SEC      HOURS PROFNAME  
+------ ----------------------------------- ------------------------ --- ---------- ----------
+521374 SCSC W138 - INTRO TO COMPUTER TECH  T-Th 8:00am - 9:15am     001          3 SPIESS E  
+523764 SEGL W101 - COMPOSITION             M-W-F 9:30am - 10:20am   001          3 TAYLOR N  
+519054 SHST W111 - INTRO EUROPEAN HISTORY  T-Th 10:30am - 11:45am   001          3 BOGGS S   
+529834 SIMS W139 - VISUAL BASIC I          T-Th 2:35pm - 3:50pm     001          3 TOLAND T  
+514684 SIMS W239 - VISUAL BASIC II         T-Th 2:35pm - 3:50pm     001          3 Williams D
+529894 SIMS W421 - DATABASE IMPL.          T-Th 2:35pm - 3:50pm     001          3 Toland T  
+521954 SMTH W121 - COLLEGE ALGEBRA         M-W-F 10:30am - 11:20am  001          3 WHITE W   
+
+7 rows selected. 
+
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+James Smith                               SCSC W138 - INTRO TO COMPUTER TECH 
+James Smith                               SEGL W101 - COMPOSITION            
+James Smith                               SHST W111 - INTRO EUROPEAN HISTORY 
+James Smith                               SIMS W139 - VISUAL BASIC I         
+James Smith                               SIMS W239 - VISUAL BASIC II        
+James Smith                               SMTH W121 - COLLEGE ALGEBRA        
+John Williams                             SCSC W138 - INTRO TO COMPUTER TECH 
+John Williams                             SEGL W101 - COMPOSITION            
+John Williams                             SHST W111 - INTRO EUROPEAN HISTORY 
+John Williams                             SIMS W139 - VISUAL BASIC I         
+John Williams                             SIMS W239 - VISUAL BASIC II        
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+John Williams                             SIMS W421 - DATABASE IMPL.         
+John Williams                             SMTH W121 - COLLEGE ALGEBRA        
+Linda Davis                               SCSC W138 - INTRO TO COMPUTER TECH 
+Linda Davis                               SEGL W101 - COMPOSITION            
+Linda Davis                               SHST W111 - INTRO EUROPEAN HISTORY 
+Linda Davis                               SIMS W139 - VISUAL BASIC I         
+Linda Davis                               SIMS W239 - VISUAL BASIC II        
+Linda Davis                               SIMS W421 - DATABASE IMPL.         
+Linda Davis                               SMTH W121 - COLLEGE ALGEBRA        
+Mary Johnson                              SCSC W138 - INTRO TO COMPUTER TECH 
+Mary Johnson                              SEGL W101 - COMPOSITION            
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Mary Johnson                              SHST W111 - INTRO EUROPEAN HISTORY 
+Mary Johnson                              SIMS W139 - VISUAL BASIC I         
+Mary Johnson                              SIMS W239 - VISUAL BASIC II        
+Mary Johnson                              SIMS W421 - DATABASE IMPL.         
+Mary Johnson                              SMTH W121 - COLLEGE ALGEBRA        
+Patricia Jones                            SCSC W138 - INTRO TO COMPUTER TECH 
+Patricia Jones                            SEGL W101 - COMPOSITION            
+Patricia Jones                            SHST W111 - INTRO EUROPEAN HISTORY 
+Patricia Jones                            SIMS W139 - VISUAL BASIC I         
+Patricia Jones                            SIMS W239 - VISUAL BASIC II        
+Patricia Jones                            SIMS W421 - DATABASE IMPL.         
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Patricia Jones                            SMTH W121 - COLLEGE ALGEBRA        
+Robert Brown                              SCSC W138 - INTRO TO COMPUTER TECH 
+Robert Brown                              SEGL W101 - COMPOSITION            
+Robert Brown                              SHST W111 - INTRO EUROPEAN HISTORY 
+Robert Brown                              SIMS W139 - VISUAL BASIC I         
+Robert Brown                              SIMS W239 - VISUAL BASIC II        
+Robert Brown                              SIMS W421 - DATABASE IMPL.         
+Robert Brown                              SMTH W121 - COLLEGE ALGEBRA        
+Susan Martin                              SCSC W138 - INTRO TO COMPUTER TECH 
+Susan Martin                              SEGL W101 - COMPOSITION            
+Susan Martin                              SHST W111 - INTRO EUROPEAN HISTORY 
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Susan Martin                              SIMS W139 - VISUAL BASIC I         
+Susan Martin                              SIMS W239 - VISUAL BASIC II        
+Susan Martin                              SMTH W121 - COLLEGE ALGEBRA        
+
+47 rows selected. 
+
+
+STUDID    FNAME           LNAME                        TUITION FINANCIALAID MAJOR           ENROLLDTE
+--------- --------------- ------------------------- ---------- ------------ --------------- ---------
+254099823 Patricia        Jones                           2800         2800 Math            21-JAN-05
+356187925 Robert          Brown                           2800         2800 Math            25-JAN-05
+
+
+STUDID    FNAME           LNAME                        TUITION FINANCIALAID MAJOR           ENROLLDTE
+--------- --------------- ------------------------- ---------- ------------ --------------- ---------
+242518965 James           Smith                           2800         6800 CS              25-JAN-05
+141582651 Mary            Johnson                         2800         4400 IMS             25-JAN-05
+287321212 Michael         Miller                          2800         6200 English         27-JAN-05
+
+
+SEQCDE COURSENAME                          MEETINGDAYS              SEC      HOURS PROFNAME  
+------ ----------------------------------- ------------------------ --- ---------- ----------
+521374 SCSC W138 - INTRO TO COMPUTER TECH  T-Th 8:00am - 9:15am     001          3 SPIESS E  
+519054 SHST W111 - INTRO EUROPEAN HISTORY  T-Th 10:30am - 11:45am   001          3 BOGGS S   
+529834 SIMS W139 - VISUAL BASIC I          T-Th 2:35pm - 3:50pm     001          3 TOLAND T  
+514684 SIMS W239 - VISUAL BASIC II         T-Th 2:35pm - 3:50pm     001          3 Williams D
+529894 SIMS W421 - DATABASE IMPL.          T-Th 2:35pm - 3:50pm     001          3 Toland T  
+
+
+SEQCDE COURSENAME                          MEETINGDAYS              SEC      HOURS PROFNAME  
+------ ----------------------------------- ------------------------ --- ---------- ----------
+529894 SIMS W421 - DATABASE IMPL.          T-Th 2:35pm - 3:50pm     001          3 Toland T  
+
+
+FNAME           LNAME                     COURSENAME                          SEC PROFNAME  
+--------------- ------------------------- ----------------------------------- --- ----------
+James           Smith                     SIMS W239 - VISUAL BASIC II         001 Williams D
+James           Smith                     SIMS W139 - VISUAL BASIC I          001 TOLAND T  
+James           Smith                     SEGL W101 - COMPOSITION             001 TAYLOR N  
+James           Smith                     SMTH W121 - COLLEGE ALGEBRA         001 WHITE W   
+James           Smith                     SCSC W138 - INTRO TO COMPUTER TECH  001 SPIESS E  
+James           Smith                     SHST W111 - INTRO EUROPEAN HISTORY  001 BOGGS S   
+John            Williams                  SIMS W239 - VISUAL BASIC II         001 Williams D
+John            Williams                  SHST W111 - INTRO EUROPEAN HISTORY  001 BOGGS S   
+John            Williams                  SCSC W138 - INTRO TO COMPUTER TECH  001 SPIESS E  
+John            Williams                  SMTH W121 - COLLEGE ALGEBRA         001 WHITE W   
+John            Williams                  SEGL W101 - COMPOSITION             001 TAYLOR N  
+
+FNAME           LNAME                     COURSENAME                          SEC PROFNAME  
+--------------- ------------------------- ----------------------------------- --- ----------
+John            Williams                  SIMS W139 - VISUAL BASIC I          001 TOLAND T  
+John            Williams                  SIMS W421 - DATABASE IMPL.          001 Toland T  
+Linda           Davis                     SIMS W139 - VISUAL BASIC I          001 TOLAND T  
+Linda           Davis                     SIMS W421 - DATABASE IMPL.          001 Toland T  
+Linda           Davis                     SEGL W101 - COMPOSITION             001 TAYLOR N  
+Linda           Davis                     SMTH W121 - COLLEGE ALGEBRA         001 WHITE W   
+Linda           Davis                     SCSC W138 - INTRO TO COMPUTER TECH  001 SPIESS E  
+Linda           Davis                     SHST W111 - INTRO EUROPEAN HISTORY  001 BOGGS S   
+Linda           Davis                     SIMS W239 - VISUAL BASIC II         001 Williams D
+Mary            Johnson                   SCSC W138 - INTRO TO COMPUTER TECH  001 SPIESS E  
+Mary            Johnson                   SMTH W121 - COLLEGE ALGEBRA         001 WHITE W   
+
+FNAME           LNAME                     COURSENAME                          SEC PROFNAME  
+--------------- ------------------------- ----------------------------------- --- ----------
+Mary            Johnson                   SEGL W101 - COMPOSITION             001 TAYLOR N  
+Mary            Johnson                   SIMS W139 - VISUAL BASIC I          001 TOLAND T  
+Mary            Johnson                   SIMS W421 - DATABASE IMPL.          001 Toland T  
+Mary            Johnson                   SIMS W239 - VISUAL BASIC II         001 Williams D
+Mary            Johnson                   SHST W111 - INTRO EUROPEAN HISTORY  001 BOGGS S   
+Patricia        Jones                     SIMS W421 - DATABASE IMPL.          001 Toland T  
+Patricia        Jones                     SIMS W139 - VISUAL BASIC I          001 TOLAND T  
+Patricia        Jones                     SEGL W101 - COMPOSITION             001 TAYLOR N  
+Patricia        Jones                     SMTH W121 - COLLEGE ALGEBRA         001 WHITE W   
+Patricia        Jones                     SCSC W138 - INTRO TO COMPUTER TECH  001 SPIESS E  
+Patricia        Jones                     SHST W111 - INTRO EUROPEAN HISTORY  001 BOGGS S   
+
+FNAME           LNAME                     COURSENAME                          SEC PROFNAME  
+--------------- ------------------------- ----------------------------------- --- ----------
+Patricia        Jones                     SIMS W239 - VISUAL BASIC II         001 Williams D
+Robert          Brown                     SIMS W421 - DATABASE IMPL.          001 Toland T  
+Robert          Brown                     SIMS W139 - VISUAL BASIC I          001 TOLAND T  
+Robert          Brown                     SEGL W101 - COMPOSITION             001 TAYLOR N  
+Robert          Brown                     SMTH W121 - COLLEGE ALGEBRA         001 WHITE W   
+Robert          Brown                     SCSC W138 - INTRO TO COMPUTER TECH  001 SPIESS E  
+Robert          Brown                     SHST W111 - INTRO EUROPEAN HISTORY  001 BOGGS S   
+Robert          Brown                     SIMS W239 - VISUAL BASIC II         001 Williams D
+Susan           Martin                    SHST W111 - INTRO EUROPEAN HISTORY  001 BOGGS S   
+Susan           Martin                    SCSC W138 - INTRO TO COMPUTER TECH  001 SPIESS E  
+Susan           Martin                    SMTH W121 - COLLEGE ALGEBRA         001 WHITE W   
+
+FNAME           LNAME                     COURSENAME                          SEC PROFNAME  
+--------------- ------------------------- ----------------------------------- --- ----------
+Susan           Martin                    SEGL W101 - COMPOSITION             001 TAYLOR N  
+Susan           Martin                    SIMS W139 - VISUAL BASIC I          001 TOLAND T  
+Susan           Martin                    SIMS W239 - VISUAL BASIC II         001 Williams D
+
+47 rows selected. 
+
+
+FULLNAME                                  COURSECOUNT
+----------------------------------------- -----------
+James Smith                                         6
+John Williams                                       7
+Linda Davis                                         7
+Mary Johnson                                        7
+Patricia Jones                                      7
+Robert Brown                                        7
+Susan Martin                                        6
+
+7 rows selected. 
+
+
+FULLNAME                                  COURSECOUNT
+----------------------------------------- -----------
+James Smith                                         6
+John Williams                                       7
+Linda Davis                                         7
+Mary Johnson                                        7
+Patricia Jones                                      7
+Robert Brown                                        7
+Susan Martin                                        6
+
+7 rows selected. 
+
+
+COURSESECT                                ENROLLEDCOUNT
+----------------------------------------- -------------
+SIMS W239 - VISUAL BASIC II (001)                     7
+SHST W111 - INTRO EUROPEAN HISTORY (001)              7
+SCSC W138 - INTRO TO COMPUTER TECH (001)              7
+SMTH W121 - COLLEGE ALGEBRA (001)                     7
+SEGL W101 - COMPOSITION (001)                         7
+SIMS W139 - VISUAL BASIC I (001)                      7
+SIMS W421 - DATABASE IMPL. (001)                      5
+
+7 rows selected. 
+
+
+FULLNAME                                  COURSENAME                         
+----------------------------------------- -----------------------------------
+Susan Martin                              SEGL W101 - COMPOSITION            
+Susan Martin                              SMTH W121 - COLLEGE ALGEBRA        
+Susan Martin                              SCSC W138 - INTRO TO COMPUTER TECH 
+Susan Martin                              SHST W111 - INTRO EUROPEAN HISTORY 
+Susan Martin                              SIMS W139 - VISUAL BASIC I         
+Susan Martin                              SIMS W239 - VISUAL BASIC II        
+
+6 rows selected. 
+
+
+FULLNAME                                  MAJOR           COURSENAME                          PROFNAME  
+----------------------------------------- --------------- ----------------------------------- ----------
+James Smith                               CS              SIMS W239 - VISUAL BASIC II         Williams D
+James Smith                               CS              SIMS W139 - VISUAL BASIC I          TOLAND T  
+James Smith                               CS              SEGL W101 - COMPOSITION             TAYLOR N  
+James Smith                               CS              SMTH W121 - COLLEGE ALGEBRA         WHITE W   
+James Smith                               CS              SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E  
+James Smith                               CS              SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S   
+John Williams                             English         SIMS W239 - VISUAL BASIC II         Williams D
+John Williams                             English         SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S   
+John Williams                             English         SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E  
+John Williams                             English         SMTH W121 - COLLEGE ALGEBRA         WHITE W   
+John Williams                             English         SEGL W101 - COMPOSITION             TAYLOR N  
+
+FULLNAME                                  MAJOR           COURSENAME                          PROFNAME  
+----------------------------------------- --------------- ----------------------------------- ----------
+John Williams                             English         SIMS W139 - VISUAL BASIC I          TOLAND T  
+John Williams                             English         SIMS W421 - DATABASE IMPL.          Toland T  
+Linda Davis                               IMS             SIMS W139 - VISUAL BASIC I          TOLAND T  
+Linda Davis                               IMS             SIMS W421 - DATABASE IMPL.          Toland T  
+Linda Davis                               IMS             SEGL W101 - COMPOSITION             TAYLOR N  
+Linda Davis                               IMS             SMTH W121 - COLLEGE ALGEBRA         WHITE W   
+Linda Davis                               IMS             SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E  
+Linda Davis                               IMS             SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S   
+Linda Davis                               IMS             SIMS W239 - VISUAL BASIC II         Williams D
+Mary Johnson                              IMS             SIMS W239 - VISUAL BASIC II         Williams D
+Mary Johnson                              IMS             SIMS W421 - DATABASE IMPL.          Toland T  
+
+FULLNAME                                  MAJOR           COURSENAME                          PROFNAME  
+----------------------------------------- --------------- ----------------------------------- ----------
+Mary Johnson                              IMS             SIMS W139 - VISUAL BASIC I          TOLAND T  
+Mary Johnson                              IMS             SEGL W101 - COMPOSITION             TAYLOR N  
+Mary Johnson                              IMS             SMTH W121 - COLLEGE ALGEBRA         WHITE W   
+Mary Johnson                              IMS             SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S   
+Mary Johnson                              IMS             SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E  
+Susan Martin                              IMS             SIMS W239 - VISUAL BASIC II         Williams D
+Susan Martin                              IMS             SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S   
+Susan Martin                              IMS             SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E  
+Susan Martin                              IMS             SMTH W121 - COLLEGE ALGEBRA         WHITE W   
+Susan Martin                              IMS             SIMS W139 - VISUAL BASIC I          TOLAND T  
+Susan Martin                              IMS             SEGL W101 - COMPOSITION             TAYLOR N  
+
+FULLNAME                                  MAJOR           COURSENAME                          PROFNAME  
+----------------------------------------- --------------- ----------------------------------- ----------
+Patricia Jones                            Math            SIMS W239 - VISUAL BASIC II         Williams D
+Patricia Jones                            Math            SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S   
+Patricia Jones                            Math            SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E  
+Patricia Jones                            Math            SMTH W121 - COLLEGE ALGEBRA         WHITE W   
+Patricia Jones                            Math            SEGL W101 - COMPOSITION             TAYLOR N  
+Patricia Jones                            Math            SIMS W139 - VISUAL BASIC I          TOLAND T  
+Patricia Jones                            Math            SIMS W421 - DATABASE IMPL.          Toland T  
+Robert Brown                              Math            SIMS W139 - VISUAL BASIC I          TOLAND T  
+Robert Brown                              Math            SEGL W101 - COMPOSITION             TAYLOR N  
+Robert Brown                              Math            SMTH W121 - COLLEGE ALGEBRA         WHITE W   
+Robert Brown                              Math            SCSC W138 - INTRO TO COMPUTER TECH  SPIESS E  
+
+FULLNAME                                  MAJOR           COURSENAME                          PROFNAME  
+----------------------------------------- --------------- ----------------------------------- ----------
+Robert Brown                              Math            SHST W111 - INTRO EUROPEAN HISTORY  BOGGS S   
+Robert Brown                              Math            SIMS W239 - VISUAL BASIC II         Williams D
+Robert Brown                              Math            SIMS W421 - DATABASE IMPL.          Toland T  
+
+47 rows selected. 
+
