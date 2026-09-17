@@ -1,28 +1,3 @@
-/*
-Student
-    StudId       PK Char(9)
-    FName        VarChar2 (15)
-    LName        VarChar2(25)
-    Tuition      Number(6,2)
-    FinancialAid Number(6,2)
-    Major        Char(15)
-    EnrollDte    Date
-
-Course
-    SeqCde       PK Char(6)
-    CourseName   VarChar2(35)
-    MeetingDays  VarChar2(24)
-    Sect         Char(3)
-    Hours        Number(1)
-    ProfName     VarChar2(10)
-
-Has
-    StudId       PK Char(9)
-    SeqCde       PK Char(6)
-    FK (StudId) References Student(StudId)
-    FK (SeqCde) References Course(SeqCde)
-*/
-
 -- List the student id, last name, and the difference between tuition and financial aid
 COLUMN Amount Format $9,999.99
 SELECT StudID, LName,
