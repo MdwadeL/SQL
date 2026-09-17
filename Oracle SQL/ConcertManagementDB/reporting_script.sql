@@ -1,29 +1,4 @@
 /*
-The relationship schema of the database:
-
-Customer (CustNo, FName, LName, Address, City, State, Zip)
-pk = {CustNo}
-
-
-Concert(ConcertId, Name, ConcertDate, City, State, Budget, ProdNo)
-pk ={ConcertId}
-fk1 ={ProdNo} references Producer(ProdNo)
-
-    Assume that some concerts do not have a budget, which is represented with the value of NULL
-    State is stored in a two character attribute field
-    
-    
-Producer(ProdNo, Name, Revenue)
-pk = {ProdNo}
-
-Attends(CustNo, ConcertId, Cost)
-pk = {CustNo, ConcertId}
-fk2 = {CustNo} reference Customer(CustNo)
-fk3 = {ConcertId} reference Concert(ConcertId)
-*/
-
-
-/*
 1. Write a query to display the producer number, producer name, concert ID,
 concert name, concert date, and concert budget for each concert.
 
